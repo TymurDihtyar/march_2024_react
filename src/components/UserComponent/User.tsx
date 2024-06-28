@@ -16,7 +16,7 @@ const User: FC<IProps> = ({ item, getPostsOfUser }) => {
       <p>Name: {firstName}</p>
       <p>Last name: {lastName}</p>
       <p>Email: {email}</p>
-      <button onClick={() => getPostsOfUser(id.toString())}>get posts</button>
+      <button onClick={() => getPostsOfUser(id.toString())}>Get user posts</button>
     </div>
   );
 };
