@@ -1,4 +1,5 @@
 const UserPostsPage = () => {
+  
   return (
     <div>
       UserPostsPage
