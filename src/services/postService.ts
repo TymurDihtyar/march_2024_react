@@ -5,7 +5,7 @@ import { axiosService } from './axiosService.ts';
 
 const postService = {
   getAllPosts: (): IRes<IPost[]> => axiosService.get(urls.posts),
-  getPostsOfCurrentUser: (id: number): IRes<IPost> => axiosService.get(`${urls.users}/${id}/posts`),
+  getPostsOfCurrentUser: (id: string): IRes<IPost[]> => axiosService.get(`${urls.users}/${id}/posts`),
 };
 
 export { postService };

@@ -5,7 +5,7 @@ import { axiosService } from './axiosService.ts';
 
 const commentsService = {
   getAllComments: (): IRes<IComment[]> => axiosService.get(urls.comments),
-  getCommentsOfCurrentPost: (id: number): IRes<IComment> => axiosService.get(`${urls.posts}/${id}/comments`),
+  getCommentsOfCurrentPost: (id: string): IRes<IComment[]> => axiosService.get(`${urls.posts}/${id}/comments`),
 };
 
 export { commentsService };

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1d6683;
+    background-color: #ac58b2;
     color: white;
     padding: 10px;
     border: 2px solid black;
@@ -12,6 +12,6 @@
 }
 
 .wrapper:hover {
-    background-color: #46831d;
+    background-color: #bcc031;
     cursor: pointer;
 }
